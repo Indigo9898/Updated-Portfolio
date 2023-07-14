@@ -1,27 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: rgba(87, 131, 219, 0.70);
+}
+
+::selection {
+  color: #fff;
+  background: rgba(87, 131, 219, 0.70);
+}
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --main-bg-color: #0F172A;
+    --main-text-color: rgba(250, 249, 246);
+    --main-subtext-color: rgba(250, 249, 246, 0.70);
+    --main-card-hover-color: rgba(94, 234, 212, 0.10)
   }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--main-bg-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-text-color);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.subtext {
+  color: var(--main-subtext-color);
 }
+
+.card{
+  transition: all 0.5s;
+}
+
+.card:hover{
+  background: var(--main-card-hover-color);
+}
+
+
+.link hr{
+  transition: all 0.5s;
+}
+
+
+.link:hover{
+  color: var(--main-text-color);
+  transition: all 0.5s;
+}
+
+.link:hover hr{
+  width: 15% !important;
+}
+
