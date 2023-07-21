@@ -13,7 +13,7 @@ const ProjectItem = (props) => {
   return (
     <div className="p-6 mb-8 card rounded-3xl">
       <Link className="absolute w-full h-full" href={props.linkhref}></Link>
-      <div className="grid grid-cols-1 md:grid-cols-2 grid-cols-2 mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 mb-4">
         <div className="mr-4">
           <Image
             className="mr-4 rounded-xl border-slate-200/10 border-2 mb-4"
