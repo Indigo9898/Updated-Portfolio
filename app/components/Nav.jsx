@@ -10,7 +10,7 @@ const Nav = () => {
         <h1 className="font-bold text-4xl md:text-5xl mb-4">Austen Dyer</h1>
         <p className="subtext w-2/3">
           I help craft solid and scalable web products with a focus on providing
-          a great user experiences.
+          a great user experience.
         </p>
       </div>
       <div className="p-6 subtext mb-32">
