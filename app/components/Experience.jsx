@@ -30,7 +30,7 @@ const Experience = () => {
         skills={{
           1: "HTML",
           2: "JavaScript",
-          3: "Jquery++",
+          3: "Jquery",
           4: "Vue.js",
           5: "Content Management Systems",
           6: "Collaboration",
