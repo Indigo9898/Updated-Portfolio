@@ -25,7 +25,7 @@ const Experience = () => {
       <ExperienceInfo
         title="Sam Houston State University Web Developer"
         startDate="2022"
-        endDate="2023"
+        endDate="Current"
         text="During my time as a web developer at Sam Houston State University, I played a crucial role in maintaining and enhancing the Sam Houston website, while also contributing to the creation of new web content. Working with a diverse team of professionals, I utilized my skills in web development to develop numerous web systems that elevated the functionality and user experience of the site. Through my time at Sam Houston State University, I not only refined my technical abilities but also developed a keen eye for design and user-centric solutions."
         skills={{
           1: "HTML",
