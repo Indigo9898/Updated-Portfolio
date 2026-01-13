@@ -37,7 +37,7 @@ const Projects = () => {
       />
 
       <ProjectItem
-        imgSrc="/PipeLinePro.PNG"
+        imgSrc="/PipeLinePro.png"
         title="Pipeline Pros Mockup"
         description="I developed on mockup of a plumbing startup, This project focued on reusable code, It us Elventy, Nunjucks
 , and Decap CMS"
@@ -56,7 +56,7 @@ const Projects = () => {
       />
 
       <ProjectItem
-        imgSrc="/MetroRooter.PNG"
+        imgSrc="/MetroRooter.png"
         title="MetroRooter"
         description="I developed on mockup of a plumbing startup, This project focued on reusable code, It us Elventy, Nunjucks
 , and Decap CMS. This project utilized a new Bento Box Modern formatting"
