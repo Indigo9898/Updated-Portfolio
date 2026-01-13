@@ -35,7 +35,44 @@ const Projects = () => {
       key="tuition"
       linkhref="https://www.shsu.edu/dept/cashiers/tuition-fees"
       />
-      
+
+      <ProjectItem
+        imgSrc="/PipeLinePro.PNG"
+        title="Pipeline Pros Mockup"
+        description="I developed on mockup of a plumbing startup, This project focued on reusable code, It us Elventy, Nunjucks
+, and Decap CMS"
+        srcCode={true}
+        gitSrc = "https://github.com/Indigo9898/PlumberPortfolio1"
+        skills = {{
+            1: "Nelify",
+            2: "Elventy",
+            3: "Nunjucks",
+            4: "Decap CMS",
+            5: "Nelify Forms",
+            6: "UX Design",
+        }}
+        key="PipeLine Pros"
+        linkhref="https://wonderful-baklava-aa0af3.netlify.app/"
+      />
+
+      <ProjectItem
+        imgSrc="/MetroRooter.PNG"
+        title="MetroRooter"
+        description="I developed on mockup of a plumbing startup, This project focued on reusable code, It us Elventy, Nunjucks
+, and Decap CMS. This project utilized a new Bento Box Modern formatting"
+        srcCode={true}
+        gitSrc = "https://github.com/Indigo9898/PlumberPortfolio2"
+        skills = {{
+            1: "Nelify",
+            2: "Elventy",
+            3: "Nunjucks",
+            4: "Decap CMS",
+            5: "Nelify Forms",
+            6: "UX Design",
+        }}
+        key="MetroRooter"
+        linkhref="https://plumberportfolio2.netlify.app/"
+      />
     </div>
   );
 };
